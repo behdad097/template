@@ -521,6 +521,11 @@ a {
   transition: transform 0.3s;
 }
 
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
 .collapsible__content {
   max-height: 0;
   overflow: hidden;
@@ -719,5 +724,70 @@ nav.collapsible--expanded .nav__toggler {
   .block-showcase__image > img {
     max-width: 700px;
     width: auto;
+  }
+}
+
+/*footer*/
+.footer {
+  background: #232323;
+}
+.footer a {
+  color: #777;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer ul {
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.footer__brand {
+  text-align: center;
+  margin-top: 5rem;
+}
+.footer__brand img {
+  width: 100%;
+  max-width: 230px;
+}
+.footer__copyright {
+  color: #fff;
+  opacity: 0.3;
+  font-size: 2.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .footer .icon {
+    display: none;
+  }
+  .footer .collapsible__content {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .footer__brand {
+    order: -1;
+    margin-top: 1.5rem;
+  }
+  .footer__copyright {
+    font-size: 1.5rem;
+  }
+  .footer__section {
+    border: 0;
+  }
+  .footer__heading {
+    font-size: 1.6rem;
   }
 }
