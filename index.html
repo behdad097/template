@@ -15,93 +15,76 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="block container">
+    <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header">
-        <h2>Host Оn Тhe Cloud to Keep Growing</h2>
-        <p>
-          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-          maecenas accumsan.
-        </p>
+        <h2>User-Friendly Control Panel</h2>
       </header>
-      <article class="grid grid--cols2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum
-            expedita. Sunt quam quos aliquid incidunt adipisci deserunt ut!
-            Modi?
-          </p>
-          <a href="#" class="link-arrow">learn more</a>
-        </div>
-        <picture>
+      <div class="container grid grid--cols2">
+        <picture class="block-showcase__image">
           <source
             type="image/webp"
-            srcset="images/easy1x.webp 1x, images/easy2x.webp 2x" />
+            srcset="images/ipad1x.webp 1x, images/ipad2x.webp 2x"
+          />
           <source
-            type="image/jpg"
-            srcset="images/easy1x.jpg 1x, images/easy2x.jpg 2x" />
-          <img class="feature__image" src="images/easy2x.jpg" alt=""
-        /></picture>
-      </article>
+            type="image/png"
+            srcset="images/ipad1x.png 1x, images/ipad2x.png 2x"
+          />
+          <img src="images/ipad2x.webp" alt="" />
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <p>
+                  Our cloud plans include easy onboarding for new and existing
+                  sites and managed WordPress and WooCommerce auto-updates.
+                </p>
+              </div>
+            </div>
+          </li>
 
-      <article class="grid grid--cols2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum
-            expedita. Sunt quam quos aliquid incidunt adipisci deserunt ut!
-            Modi?
-          </p>
-          <a href="#" class="link-arrow">learn more</a>
-        </div>
-        <img class="feature__image" src="images/fast.jpg" alt="" />
-      </article>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Staging, Git & WP-CLI</h3>
+                <p>
+                  We make your WordPress and WooCommerce development flow easier
+                  with a convenient staging tool and Git and WP-CLI integration.
+                </p>
+              </div>
+            </div>
+          </li>
 
-      <article class="grid grid--cols2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum
-            expedita. Sunt quam quos aliquid incidunt adipisci deserunt ut!
-            Modi?
-          </p>
-          <a href="#" class="link-arrow">learn more</a>
-        </div>
-        <img class="feature__image" src="images/wordpress.jpg" alt="" />
-      </article>
-
-      <article class="grid grid--cols2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum
-            expedita. Sunt quam quos aliquid incidunt adipisci deserunt ut!
-            Modi?
-          </p>
-          <a href="#" class="link-arrow">learn more</a>
-        </div>
-        <img class="feature__image" src="images/support.jpg" alt="" />
-      </article>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Dynamic Caching & More</h3>
+                <p>
+                  Speed up your WordPress and Woo sites with our SG Optimizer
+                  plugin through smart dynamic caching and multiple other
+                  performance optimizations.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <script src="/js/main.js"></script>
   </body>
